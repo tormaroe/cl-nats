@@ -1,7 +1,7 @@
 
-![cl-nats logo](https://github.com/tormaroe/cl-nats/blob/master/images/cl-nats-logo.png)
-
 # NATS - Common Lisp Client
+
+![cl-nats logo](https://github.com/tormaroe/cl-nats/blob/master/images/cl-nats-logo.png)
 
 A Common Lisp client for the [NATS messaging system](https://nats.io/).
 
