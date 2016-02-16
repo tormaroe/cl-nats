@@ -42,7 +42,53 @@ cl-nats is not available through quicklisp yet, so clone this repository to some
 
 #### function MAKE-CONNECTION (&key host port name)
 
-Connect to a NATS daemon running on `host:port` (default 127.0.0.1:4222) and return an object of type `nats.connection:connection`. The optional `name` is sent to NATS to identify the client. 
+Connect to a NATS daemon running on `host:port` (default 127.0.0.1:4222) and return an object of type `nats.connection:connection`. The optional `name` is sent to NATS to identify the client.
+
+#### function CONNECT (connection)
+
+...
+
+#### function SUBSCRIBE (connection subject handler &key queue-group)
+
+...
+
+#### function UNSUBSCRIBE (connection sid &key max-wanted)
+
+...
+
+#### function PUBLISH (connection subject message)
+
+...
+
+#### function REQUEST (connection subject handler)
+
+...
+
+#### function DISCONNECT (connection)
+
+...
+
+#### macro WITH-CONNECTION ((connection &key host port) &body body)
+
+...
+
+### Package NATS.VARS
+
+#### special variable *HOST*
+
+The NATS server IP, defaults to `#(127 0 0 1)`.
+
+#### special variable *PORT*
+
+The NATS server TCP/IP port, defaults to `4222`.
+
+#### special variable *CLIENT-NAME*
+
+The client name sent to the NATS server, defaults to empty string.
+
+#### special variable *ENCODING*
+
+The FLEXI-STREAMS charachter encoding to use when communicating with NATS, defaults to `:utf8`.
 
 ## License
 
