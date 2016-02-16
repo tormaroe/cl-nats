@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="cl-nats-logo.svg"
+   inkscape:export-filename="C:\home\lisplogo_alien.png"
+   inkscape:export-xdpi="258.45999"
+   inkscape:export-ydpi="258.45999"
+   version="1.1">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient8707">
+      <stop
+         style="stop-color:#8de17a;stop-opacity:1.0000000;"
+         offset="0.00000000"
+         id="stop8709" />
+      <stop
+         style="stop-color:#a3f590;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop8711" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7973">
+      <stop
+         id="stop7975"
+         offset="0.00000000"
+         style="stop-color:#71bc60;stop-opacity:1.0000000;" />
+      <stop
+         id="stop7977"
+         offset="1.0000000"
+         style="stop-color:#77ce64;stop-opacity:0.42352942;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6509">
+      <stop
+         style="stop-color:#7a73de;stop-opacity:1.0000000;"
+         offset="0.00000000"
+         id="stop6511" />
+      <stop
+         id="stop6517"
+         offset="0.50000000"
+         style="stop-color:#a2c8e9;stop-opacity:0.98039216;" />
+      <stop
+         style="stop-color:#7a73de;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop6513" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5773">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.00000000;"
+         offset="0.00000000"
+         id="stop5775" />
+      <stop
+         id="stop5781"
+         offset="0.50000000"
+         style="stop-color:#616161;stop-opacity:1.0000000;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5777" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5037">
+      <stop
+         id="stop5039"
+         offset="0.00000000"
+         style="stop-color:#d6d1f9;stop-opacity:1.0000000;" />
+      <stop
+         id="stop5041"
+         offset="1.0000000"
+         style="stop-color:#9687fa;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4303">
+      <stop
+         style="stop-color:#d6d1f9;stop-opacity:1.0000000;"
+         offset="0.00000000"
+         id="stop4305" />
+      <stop
+         style="stop-color:#9687fa;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop4307" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2115">
+      <stop
+         style="stop-color:#d2f1cb;stop-opacity:1.0000000;"
+         offset="0.00000000"
+         id="stop2117" />
+      <stop
+         style="stop-color:#cdf9c3;stop-opacity:0.42268041;"
+         offset="1.0000000"
+         id="stop2119" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2115"
+       id="linearGradient2121"
+       x1="272.79681"
+       y1="476.64795"
+       x2="254.12024"
+       y2="535.94427"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.51537203,0,0,0.51537203,117.24624,96.840981)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4303"
+       id="radialGradient4309"
+       cx="300.83069"
+       cy="447.85394"
+       fx="300.83069"
+       fy="447.85394"
+       r="78.713470"
+       gradientTransform="matrix(1.000000,0.000000,0.000000,0.960976,0.000000,15.90946)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5037"
+       id="linearGradient5045"
+       x1="225.84930"
+       y1="641.64783"
+       x2="253.46617"
+       y2="543.98328"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5773"
+       id="linearGradient5779"
+       x1="80.912460"
+       y1="670.96942"
+       x2="301.00812"
+       y2="670.96942"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.51537203,0,0,0.51537203,117.24624,96.840981)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6509"
+       id="linearGradient6515"
+       x1="456.66621"
+       y1="428.55343"
+       x2="579.09352"
+       y2="428.55343"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.51537203,0,0,0.51537203,117.24624,96.840981)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7973"
+       id="linearGradient7979"
+       gradientUnits="userSpaceOnUse"
+       x1="209.93025"
+       y1="609.15863"
+       x2="272.07062"
+       y2="554.45270"
+       gradientTransform="matrix(0.51537203,0,0,0.51537203,117.24624,96.840981)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8707"
+       id="linearGradient8713"
+       x1="202.42282"
+       y1="630.79425"
+       x2="201.15987"
+       y2="501.72241"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.51537202,0,0,0.51537202,117.24624,96.840979)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="280.98857"
+     inkscape:cy="647.74956"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="276.44247"
+       x="124.68306"
+       id="image3093"
+       xlink:href="data:image/png;base64,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
+8v8DRMF4bw3e7+cAAAAASUVORK5CYII=
+"
+       height="57.721668"
+       width="236.04039"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="opacity:0.16666667;fill:url(#linearGradient5779);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 151.85057,440.56112 c 3.59526,7.26153 10.35394,8.14834 18.4257,6.44261 4.54733,-0.96096 19.32449,-1.94854 29.66085,2.09612 10.33637,4.04467 22.90201,-0.69463 37.73244,-1.59345 14.83042,-0.89881 19.34225,3.39108 29.2292,-1.5524 9.88695,-4.94348 32.80672,-6.29169 20.22332,-10.78577 -12.58339,-4.49406 -56.62528,-3.59525 -73.25334,-1.34821 -16.62805,2.24703 -53.47943,-8.53874 -59.77113,-5.84229 -6.67336,2.86 -3.59526,6.29169 -2.24704,12.58339 z"
+       id="path2123"
+       sodipodi:nodetypes="csssssszc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#8ed97d;fill-opacity:1;fill-rule:evenodd;stroke:#3e7e42;stroke-width:1.53735483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 190.82469,380.36087 c -3.40797,12.4409 -6.08587,41.45996 -7.76674,52.96124 -0.41144,-0.13607 -0.85664,-0.2201 -1.31463,-0.19988 -2.10084,0.0928 -3.71906,1.9364 -3.62308,4.10968 0.096,2.17326 1.86972,3.85097 3.97055,3.75818 1.453,-0.0642 2.63494,-0.98643 3.22138,-2.25413 0.62832,1.3651 2.01954,2.29673 3.61273,2.22637 2.10082,-0.0928 3.73763,-1.88082 3.64485,-3.98166 -0.0928,-2.10084 -1.88013,-3.72155 -3.98096,-3.62876 -0.006,2.4e-4 -0.0105,4.4e-4 -0.0161,5.1e-4 0.26136,-1.87372 5.46161,-36.43876 6.08881,-39.9113 0.64687,-3.58145 0.26822,-28.06603 -3.83683,-13.08045 z"
+       id="path7191"
+       sodipodi:nodetypes="ccssscssscss"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:none"
+       d="m 153.38002,470.60618 c 65.28082,10.7453 127.02452,9.65684 189.77558,-1.33016"
+       id="path3574"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="color:#000000;fill:url(#linearGradient6515);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="m 352.59923,326.12933 c 9.59363,2.95573 18.98896,-3.10113 24.5095,0.38019 5.52055,3.48131 10.33934,8.46214 19.02447,7.66634 8.59019,-0.7871 19.56164,-4.92567 19.56164,-4.92567 0,0 -10.7832,-4.65164 -15.43494,-9.94252 -4.65176,-5.29088 -6.85948,-10.76426 -15.02423,-13.68556 -11.08789,-3.96718 -20.80933,-1.86951 -25.40338,-4.47188 -5.79144,5.04084 -7.23306,24.9791 -7.23306,24.9791 z"
+       id="path3572"
+       sodipodi:nodetypes="csscsscc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2.5062542;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 362.92425,305.57198 -4.76919,17.14297 8.58661,-0.99594"
+       id="path3586"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2.5062542;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 374.03462,306.45748 -2.90739,15.13097"
+       id="path3588"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2.5062542;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 386.95406,312.09711 c -1.80808,-2.65245 -8.57669,-6.70504 -9.27447,-0.99965 -0.69779,5.7054 10.34949,4.31367 7.61706,11.16895 -2.22646,5.58587 -9.38641,-1.91897 -9.38641,-1.91897"
+       id="path3590"
+       sodipodi:nodetypes="cssc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2.5062542;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 388.00281,329.27531 3.09189,-14.39616 c 0,0 7.1037,5.1759 5.63341,8.61042 -1.99816,4.66761 -6.87512,-1.80517 -6.87512,-1.80517"
+       id="path3592"
+       sodipodi:nodetypes="ccsc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:url(#linearGradient8713);fill-opacity:1;fill-rule:evenodd;stroke:#3e7e42;stroke-width:1.53735483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 256.66416,340.93896 c -43.54232,-0.15754 -78.94721,18.03226 -83.70943,32.82214 -3.95355,12.27842 -9.40416,47.11177 -11.59082,58.52769 -0.40504,-0.15409 -0.8461,-0.25769 -1.30454,-0.25769 -2.10288,-10e-6 -3.80087,1.77043 -3.80087,3.94582 0,2.17538 1.69799,3.92971 3.80087,3.92971 1.45443,-1e-5 2.67591,-0.86922 3.31771,-2.10981 0.56747,1.39149 1.91623,2.38361 3.51097,2.3836 2.10287,-1e-5 3.81696,-1.71409 3.81696,-3.81698 0,-2.10288 -1.71409,-3.80087 -3.81696,-3.80086 -0.006,0 -0.0106,-2e-5 -0.0161,0 0.34378,-1.86037 5.54458,-31.22912 7.89842,-36.24465 1.54619,-3.29462 65.56818,-6.3034 66.55169,-3.2787 1.42063,4.36901 -2.30468,32.14976 -3.15161,43.26191 -0.20022,-0.027 -0.38714,-0.0874 -0.59591,-0.0805 -2.10173,0.0692 -3.74366,1.90045 -3.67202,4.07466 0.0716,2.17421 1.82798,3.87012 3.92971,3.80087 1.45363,-0.0479 2.63658,-0.96149 3.23718,-2.22254 0.613,1.37205 1.99763,2.32338 3.5915,2.27086 2.10174,-0.0692 3.75738,-1.84408 3.68813,-3.94582 -0.0692,-2.10174 -1.82796,-3.74128 -3.92971,-3.67202 -0.18026,0.006 -0.34423,0.0659 -0.51537,0.0966 0.60018,-8.52861 4.81303,-42.64745 7.04211,-45.17341 1.52321,-1.72607 14.26776,-2.50493 14.66989,0.25574 0.3529,2.42274 6.38504,39.04123 5.71012,42.8484 -4.0904,-0.13376 -7.04709,4.7401 -4.75415,6.68446 2.14979,1.82296 5.79254,2.43659 7.00999,-1.38745 2.42142,4.12215 6.2049,2.28925 7.49157,0.29811 1.10666,-1.71256 -0.0742,-5.21637 -5.10907,-5.78838 1.981,-8.59761 -2.50057,-46.867 -1.8035,-47.89248 0.80426,-1.18315 4.83212,-7.89403 5.23425,-12.62661 0.0556,-0.65385 0.0489,-1.83128 -0.0322,-3.25329 12.57785,2.41341 21.02409,4.03247 26.5818,0.97937 7.86545,-4.32084 9.34711,-7.51862 17.35367,-12.78461 9.97068,-6.55782 17.4527,-2.62717 22.23036,-3.60643 4.77767,-0.97923 2.56705,-7.36591 5.45103,-12.24409 3.1313,-5.29653 -11.07099,-9.02689 -14.32947,-4.85174 -4.05508,5.19585 -3.32818,8.81972 -6.98162,10.08857 -4.79073,1.66382 -15.19404,8.01814 -18.59776,10.42005 -5.76597,4.0689 -10.93908,7.47178 -21.25562,3.54357 -7.62948,-3.80576 -5.98593,-12.32347 -15.99264,-16.55634 -4.85618,-2.49626 -9.55564,-4.46587 -13.33525,-5.1215 -0.19685,-0.0446 -0.39505,-0.0735 -0.5959,-0.11274 -0.23405,-0.0324 -0.46684,-0.0598 -0.69253,-0.0805 -0.88365,-0.14299 -1.57436,0.7126 -2.53486,0.67705 z"
+       id="path1306"
+       sodipodi:nodetypes="cscssscssscsscssscssscssczczcsscssssssscccscc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#e0773e;fill-opacity:1;stroke:#000000;stroke-width:1.40318751;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 358.11286,298.66265 c 1.15475,0.17193 1.95467,1.13265 1.37004,3.21284 l -16.31697,56.87604 c -0.58463,2.0802 -1.47349,2.59362 -2.62825,2.42168 -1.15474,-0.17193 -2.12513,-0.96217 -1.5405,-3.04237 l 16.31695,-56.87603 c 0.58464,-2.0802 1.64399,-2.76409 2.79873,-2.59216 z"
+       id="rect2844"
+       sodipodi:nodetypes="cccsccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 244.1015,359.2226 c -2.63968,9.13737 4.56869,11.98011 4.56869,11.98011 0,0 2.84274,1.82747 5.07632,2.43663 2.23358,0.60916 11.24404,3.19808 11.9801,-6.80226 -3.4265,-0.96451 -21.62511,-7.61448 -21.62511,-7.61448 z"
+       id="path9395"
+       sodipodi:nodetypes="ccscc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.51537204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 262.5793,365.82181 -1.929,8.52822"
+       id="path10849"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.51537204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 259.43199,365.00961 -2.13206,9.34042"
+       id="path10851"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.51537204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 256.48772,363.79129 -2.13205,9.645"
+       id="path10853"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.51537204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 253.64498,362.77602 -2.13205,9.645 2.13205,-9.645 z"
+       id="path10855"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.51537204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 250.70071,361.76076 -2.03052,9.44195"
+       id="path10857"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.51537204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 248.16256,360.84702 -1.929,8.22363"
+       id="path10859"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.51537204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 245.82745,359.73023 -1.5229,6.29463"
+       id="path10861"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.51537204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 264.91441,370.69508 c -6.49769,-0.20305 -17.05643,-3.75648 -21.42207,-7.3099"
+       id="path10863"
+       sodipodi:nodetypes="cs"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="color:#000000;fill:none;stroke:#3e7e42;stroke-width:1.53735483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="m 279.454,370.61194 c -14.14456,-3.58054 -35.16413,-11.50396 -35.16413,-11.50396 0,0 -5.07984,11.45426 11.75904,15.07953 9.40517,2.02485 9.68709,-7.15891 9.68709,-7.15891"
+       id="path1334"
+       sodipodi:nodetypes="ccsc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="color:#000000;fill:#9af286;fill-opacity:1;fill-rule:evenodd;stroke:#3e7e42;stroke-width:1.53735483;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="m 348.15983,348.44788 c 4.89219,0.63222 6.34264,-4.87057 4.6548,-7.48154 -1.538,-2.37917 -6.82188,-4.96748 -8.16619,-1.68732 -1.00794,2.45939 1.65579,3.85632 3.87881,3.62709"
+       id="path1319"
+       sodipodi:nodetypes="csss"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="color:#000000;fill:#9af286;fill-opacity:1;fill-rule:evenodd;stroke:#3e7e42;stroke-width:1.53735483;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="m 346.29338,351.34748 c -1.99594,-1.04496 -4.77681,-0.82434 -3.52785,-4.26172 0.92318,-2.54081 3.96365,-0.59109 8.03777,2.19591 4.07412,2.78699 -0.15119,6.23608 -5.09932,5.80867"
+       id="path1317"
+       sodipodi:nodetypes="csss"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="color:#000000;fill:#9af286;fill-opacity:1;fill-rule:evenodd;stroke:#3e7e42;stroke-width:1.53735483;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="m 333.48423,343.59414 c 1.67169,-2.97146 2.16231,-5.97103 3.97401,-6.59317 1.7492,-0.60067 5.93591,-3.66121 7.44083,-2.85246 1.50489,0.80875 2.70622,3.69779 -2.13011,6.02303 -2.30631,1.10884 -2.4038,4.03339 -4.27779,5.19305"
+       id="path1315"
+       sodipodi:nodetypes="csssz"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 222.73046,357.82014 c 0,0 10.15918,-1.65475 9.30212,-7.4541 -0.72037,-4.87446 -8.03716,-3.78764 -11.71574,-2.86137 0.23324,2.95591 0.62757,4.58099 -2.75184,6.00243 3.39869,-0.0699 4.17739,0.94121 5.16546,4.31304 z"
+       id="path15231"
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path15959"
+       d="m 223.84798,369.37059 c 0,0 10.29193,-0.15356 10.29088,-6.0159 -8.4e-4,-4.9274 -7.39794,-4.92063 -11.17235,-4.54143 -0.20089,2.95828 -0.0481,4.62352 -3.59883,5.53626 3.37247,0.42716 3.99519,1.5411 4.4803,5.02107 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 223.93061,381.36487 c 0,0 10.27283,0.64519 10.72649,-5.19956 0.38132,-4.91263 -6.99398,-5.47963 -10.78644,-5.39434 -0.42974,2.93379 -0.40654,4.60587 -4.0174,5.24044 3.32918,0.68746 3.86362,1.84635 4.07735,5.35346 z"
+       id="path15961"
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 223.59003,382.63087 c -0.62088,2.89935 -0.70379,4.57977 -4.34845,4.97656 2.78201,0.76741 3.50284,1.82518 3.65592,4.25182 3.33439,-0.0499 6.37694,-0.0463 9.01901,0.0161 1.07452,-0.69256 1.86875,-1.70603 2.0776,-3.15665 0.70214,-4.87711 -6.61417,-5.92464 -10.40408,-6.08784 z"
+       id="path15963"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 218.27526,345.68514 c -4.38416,1.13335 -8.55789,2.43365 -12.44946,3.86529 2.31518,0.48776 2.93374,1.6037 3.34992,4.44508 0,0 10.17893,-0.29385 10.1786,-5.81404 -6e-5,-1.07727 -0.42722,-1.87542 -1.07906,-2.49633 z"
+       id="path15965"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path15967"
+       d="m 211.33157,364.62565 c 0,0 10.1713,-0.26086 10.18582,-5.78102 0.0122,-4.63982 -7.29789,-4.54989 -11.02893,-4.15019 -0.20637,2.78789 -0.0597,4.35422 -3.57118,5.2538 3.33168,0.36413 3.94411,1.40603 4.41429,4.67741 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 212.28484,376.06481 c 0,0 10.17129,-0.26086 10.18581,-5.78103 0.0122,-4.63982 -7.29789,-4.54989 -11.02893,-4.15018 -0.20636,2.78789 -0.0597,4.35422 -3.57119,5.2538 3.33169,0.36412 3.94412,1.40603 4.41431,4.67741 z"
+       id="path15971"
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path15973"
+       d="m 212.35562,386.93168 c 0,0 10.15828,0.57678 10.62688,-4.92348 0.39387,-4.62308 -6.89885,-5.13484 -10.65012,-5.04343 -0.43502,2.76147 -0.41777,4.33455 -3.9913,4.9422 3.29044,0.63698 3.81508,1.72574 4.01454,5.02471 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 211.54321,387.92954 c -0.33217,2.10856 -0.44068,3.51026 -2.04538,4.33235 4.35632,-0.19891 8.55683,-0.33282 12.54609,-0.40264 -0.8168,-3.56048 -7.08669,-4.0129 -10.50071,-3.92971 z"
+       id="path15975"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path15977"
+       d="m 199.6977,361.25549 c 0,0 10.08306,-1.36209 9.499,-6.85129 -0.49091,-4.6138 -7.39012,-2.96458 -11.05582,-2.16272 0.0971,2.79384 0.0546,3.56778 -3.33858,4.84276 3.35152,5.1e-4 4.07331,0.97013 4.8954,4.17125 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 200.80984,371.90025 c 0,0 10.08306,-1.36208 9.499,-6.85129 -0.49091,-4.61379 -7.74816,-3.73183 -11.41386,-2.92997 0.0971,2.79383 0.41266,4.33503 -2.98054,5.61001 3.35152,5.2e-4 4.07331,0.97014 4.8954,4.17125 z"
+       id="path15979"
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path15981"
+       d="m 200.60144,382.02448 c 0,0 10.17463,0.0168 10.33981,-5.50086 0.13884,-4.63776 -7.17099,-4.74739 -10.91154,-4.44966 -0.28238,2.78122 -0.17858,4.35097 -3.71326,5.15437 3.32051,0.45492 3.90427,1.51317 4.28499,4.79615 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 200.14422,392.47687 c 0,0 10.15498,0.63226 10.65362,-4.86536 0.41911,-4.62086 -6.87071,-5.17245 -10.62242,-5.10153 -0.4501,2.75905 -0.44143,4.3322 -4.01824,4.92033 3.28692,0.65494 3.80559,1.74656 3.98704,5.04656 z"
+       id="path15983"
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path15987"
+       d="m 189.93241,368.54445 c 0,0 9.39275,-2.09463 8.38873,-7.2545 -0.84392,-4.33698 -7.61247,-2.9227 -11.00188,-1.87032 0.32234,2.64214 0.74713,4.07881 -2.34632,5.55823 3.15955,-0.26609 3.92005,0.59587 4.95947,3.56659 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 190.07807,378.35843 c 0,0 9.55229,-1.16837 9.0564,-6.40157 -0.41681,-4.39862 -7.29104,-3.65137 -10.76695,-2.93465 0.0631,2.66098 0.34568,4.13224 -2.87733,5.30284 3.17042,0.0434 3.84321,0.97543 4.58788,4.03338 z"
+       id="path15989"
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path15991"
+       d="m 189.72944,387.87628 c 0,0 9.61149,-0.48023 9.49222,-5.73551 -0.10025,-4.4172 -7.01038,-4.16491 -10.52874,-3.69935 -0.12797,2.65866 0.0483,4.1464 -3.25026,5.08281 3.15915,0.27069 3.76336,1.24858 4.28678,4.35205 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 189.30168,388.28386 c -0.38209,2.63417 -0.34712,4.13503 -3.72034,4.75108 0.98777,0.1812 1.65247,0.43125 2.19034,0.75696 3.51783,-0.36021 7.42958,-0.66982 11.64418,-0.95022 0.16421,-4.27171 -6.60633,-4.68276 -10.11418,-4.55782 z"
+       id="path15995"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path15997"
+       d="m 179.37825,374.77975 c 0,0 9.28469,-1.39795 8.62669,-6.27971 -0.55307,-4.10324 -7.23785,-3.18476 -10.60669,-2.4032 0.15001,2.48831 0.47479,3.8562 -2.63212,5.05446 3.09595,-0.0604 3.78361,0.79036 4.61212,3.62845 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 179.09258,383.93498 c 0,0 9.37653,-0.49026 9.19541,-5.41284 -0.15224,-4.13754 -6.89459,-3.87215 -10.32338,-3.42124 -0.0922,2.49112 0.0983,3.88408 -3.11024,4.77515 3.0872,0.2403 3.68905,1.15384 4.23821,4.05893 z"
+       id="path15999"
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccc"
+       id="path16003"
+       d="m 179.25146,393.46761 c 0,0 9.37653,-0.49026 9.19542,-5.41283 -0.15225,-4.13755 -6.8946,-3.87217 -10.32339,-3.42125 -0.0922,2.49112 0.0983,3.88408 -3.11023,4.77515 3.0872,0.2403 3.68904,1.15384 4.2382,4.05893 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       id="path16013"
+       d="m 218.27526,345.68514 c -4.38416,1.13335 -8.55789,2.43365 -12.44946,3.86529 2.31518,0.48776 2.93374,1.6037 3.34992,4.44508 0,0 10.17893,-0.29385 10.1786,-5.81404 -6e-5,-1.07727 -0.42722,-1.87542 -1.07906,-2.49633 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="opacity:0.85;color:#000000;fill:url(#linearGradient2121);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.98300004;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="m 178.36559,366.85838 c -5.84229,9.88695 -3.59526,9.43754 1.34822,8.08932 4.94348,-1.34822 40.44663,-8.98814 45.3901,-7.63992 4.94348,1.34823 12.134,-0.4494 13.48221,-5.84229 1.34822,-5.39288 1.71774,-8.20473 7.63104,-5.91331 9.74675,3.77689 28.32152,7.26153 35.51203,8.60975 7.19051,1.34822 15.27984,7.63992 26.96442,0.89882 11.68458,-6.74111 21.16911,-12.39394 25.6162,-15.72925 0.89882,-0.6741 3.84011,-7.29531 4.8082,-9.57131 0.48405,-1.138 4.57901,-3.33984 4.35127,-3.91887 -0.22774,-0.57901 -2.58416,0.41867 -5.00598,2.02325 -2.50237,1.65796 -4.10512,9.56048 -7.25097,10.9087 -3.14585,1.34822 -13.08117,6.84993 -17.12583,9.99578 -4.04467,3.14585 -14.83044,9.43755 -22.02094,5.84228 -7.19052,-3.59525 -9.88696,-10.33635 -15.72925,-14.38102 -5.84229,-4.04465 -31.00908,-12.13398 -61.11935,-2.24703 -30.11027,9.88696 -31.45849,13.48221 -36.85137,18.8751 z"
+       id="path1387"
+       sodipodi:nodetypes="csssssssszssssssc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       id="path16018"
+       d="m 189.30168,388.28386 c -0.38209,2.63417 -0.34712,4.13503 -3.72034,4.75108 0.98777,0.1812 1.65247,0.43125 2.19034,0.75696 3.51783,-0.36021 7.42958,-0.66982 11.64418,-0.95022 0.16421,-4.27171 -6.60633,-4.68276 -10.11418,-4.55782 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       id="path16023"
+       d="m 211.54321,387.92954 c -0.33217,2.10856 -0.44068,3.51026 -2.04538,4.33235 4.35632,-0.19891 8.55683,-0.33282 12.54609,-0.40264 -0.8168,-3.56048 -7.08669,-4.0129 -10.50071,-3.92971 z"
+       style="fill:#54de61;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       sodipodi:nodetypes="csccscssscssscss"
+       id="path16026"
+       d="m 260.48744,340.45518 c -0.19684,-0.0446 -0.39505,-0.0735 -0.59589,-0.11274 -0.23405,-0.0324 -0.46684,-0.0598 -0.69253,-0.0805 -0.88366,-0.14299 -1.57436,0.7126 -2.53486,0.67705 -43.54232,-0.15754 -78.94721,18.03226 -83.70943,32.82214 -3.95355,12.27842 -9.40416,47.11177 -11.59082,58.52769 -0.40504,-0.15409 -0.8461,-0.25769 -1.30454,-0.25769 -2.10288,-1e-5 -3.80087,1.77043 -3.80087,3.94582 0,2.17538 1.69799,3.92971 3.80087,3.92971 1.45443,-10e-6 2.67591,-0.86922 3.31771,-2.10981 0.56747,1.39149 1.91623,2.38361 3.51097,2.3836 2.10287,-1e-5 3.81696,-1.71409 3.81696,-3.81698 0,-2.10288 -1.71409,-3.80087 -3.81696,-3.80086 -0.006,0 -0.0106,-2e-5 -0.0161,0 0.34378,-1.86037 5.54458,-31.22912 7.89842,-36.24465 1.54619,-3.29462 65.56818,-6.3034 66.55169,-3.2787"
+       style="fill:none;stroke:#3e7e42;stroke-width:1.53735483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.73955882;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 253.49462,330.66036 c -5.27937,0.10153 -8.32516,4.56868 -5.88853,8.22364 2.43663,3.65495 11.77706,3.1473 12.99538,-0.60916 1.21831,-3.75648 -3.95953,-8.02059 -7.10685,-7.61448 z"
+       id="path7197"
+       sodipodi:nodetypes="cssc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       id="path7933"
+       d="m 254.89505,336.7414 c 2.91342,-0.58786 2.27709,-2.40889 1.13269,-3.83728 -1.14439,-1.4284 -3.8615,-0.5865 -3.80487,1.11444 0.0566,1.70096 0.54973,2.49656 2.67218,2.72284 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.73955882;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 270.35231,341.70509 c 1.11878,-5.46312 -1.86468,-7.80447 -6.71279,-8.19469 -4.84812,-0.39022 -10.81503,1.95112 -8.57744,5.85335 2.23759,3.90224 11.93383,9.36536 15.29023,2.34134 z"
+       id="path1323"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.73955882;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 242.16999,334.18308 c -4.52817,2.71619 -4.94594,8.10672 -1.0132,10.06362 3.93274,1.95689 11.78084,-3.13316 10.96745,-6.99758 -0.8134,-3.86443 -7.4268,-4.98502 -9.95425,-3.06604 z"
+       id="path7199"
+       sodipodi:nodetypes="cssc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 242.83431,338.98122 c 0.82366,2.85572 2.58668,2.07291 3.91692,0.81575 1.33024,-1.25715 0.26941,-3.89649 -1.42125,-3.70123 -1.69065,0.19526 -2.44336,0.75164 -2.49567,2.88548 z"
+       id="path7935"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.73955882;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 257.26449,340.18563 c -3.16992,-2.9267 -9.69623,-4.6827 -11.56089,-1.17069 -1.86466,3.51201 -0.74587,10.53604 5.96691,10.14582 6.71278,-0.39023 8.7639,-6.04846 5.59398,-8.97513 z"
+       id="path1321"
+       sodipodi:nodetypes="czzz"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.73955882;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 260.49995,338.78248 c -3.95952,0.30458 -6.49769,4.87327 -3.55343,6.90379 2.94428,2.03053 9.03585,2.03053 9.54349,-1.82747 0.50763,-3.858 -2.74121,-5.17785 -5.99006,-5.07632 z"
+       id="path7195"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 252.37784,339.89926 c -2.94427,-0.4061 -2.94427,1.5229 -2.33511,3.24885 0.60915,1.72595 3.4519,1.82747 3.95953,0.20305 0.50763,-1.62442 0.30458,-2.53816 -1.62442,-3.4519 z"
+       id="path7927"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       id="path7929"
+       d="m 263.30372,340.54156 c -2.27906,-0.29157 -2.27906,1.09338 -1.80753,2.33253 0.47152,1.23915 2.672,1.31205 3.06494,0.14577 0.39293,-1.16625 0.23576,-1.82228 -1.25741,-2.4783 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 265.16702,335.43548 c -2.61381,1.41478 -1.47239,2.96984 0.04,4.00076 1.51233,1.03092 3.86408,-0.56932 3.31211,-2.17922 -0.55198,-1.60989 -1.25634,-2.22636 -3.35207,-1.82154 z"
+       id="path7931"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:none;stroke:none"
+       d="m 198.32968,296.81402 c 42.63787,-2.22603 66.99513,-0.4248 96.99957,1.05923"
+       id="path3573"
+       sodipodi:nodetypes="cs"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="opacity:0.52777782;color:#000000;fill:url(#linearGradient7979);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.98300004;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="m 271.43167,372.67848 c 4.40529,1.76212 2.20265,14.53748 -4.4053,15.41855 -6.60795,0.88105 -51.10146,2.20264 -59.031,2.64317 -7.92953,0.44053 -29.07496,3.08371 -29.07496,3.08371 0,0 -3.08371,-2.64318 -3.52424,-5.28635 -0.44053,-2.64319 29.07497,-7.48902 39.64768,-7.92954 10.57272,-0.44053 30.14777,-6.60088 33.03974,-5.28636 9.69165,4.4053 20.7049,-1.76213 23.34808,-2.64318 z"
+       id="path7245"
+       sodipodi:nodetypes="csscsssc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#86d973;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 350.8104,343.46841 c -1.53287,0.0568 -2.38447,-0.17032 -2.66834,0.79482 -0.28387,0.96514 0.73805,2.78188 1.36255,2.9522 0.62451,0.17031 2.49801,-1.07869 2.61156,-1.93029 0.11355,-0.85159 -0.39741,-1.47609 -1.30577,-1.81673 z"
+       id="path8715"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <path
+       style="fill:#86d973;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 350.07234,350.16762 c -1.13546,-0.68128 -3.40638,-0.96514 -3.74702,-0.51095 -0.34063,0.45419 1.4761,0.73804 1.07869,1.64641 -0.39741,0.90837 -1.19223,0.79483 -1.4761,1.19223 -0.28386,0.39742 -0.79482,1.07869 -0.22709,1.4761 0.56773,0.39741 4.59862,-0.34063 4.93925,-0.90836 0.34064,-0.56774 1.41933,-1.93028 -0.56773,-2.89543 z"
+       id="path8717"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\dev\cl-nats\images\cl-nats-logo.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+  </g>
+</svg>
