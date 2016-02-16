@@ -36,6 +36,12 @@ cl-nats is not available through quicklisp yet, so clone this repository to some
     ;; Close connection
     (nats:close conn)
 
+## API
+
+### function MAKE-CONNECTION (&key host port name)
+
+Connect to a NATS daemon running on `host:port` (default 127.0.0.1:4222) and return an object of type `nats.connection:connection`. The optional `name` is sent to NATS to identify the client. 
+
 ## License
 
 (The MIT License)
