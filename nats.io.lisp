@@ -27,12 +27,17 @@
     (bt:make-thread 
       (lambda () 
         (loop 
+          ; Try parse with regex
           (let ((input (nats-read stream))) ; TODO: Protect against END-OF-FILE condition
             (cond
               ((equal input "PING") 
                (nats-write stream "PONG"))
               ((equal input "+OK") 
-               nil) ; Callback queue of handlers
+               nil) ; TODO: Callback queue of handlers
               ((equal (subseq input 0 4) "INFO")
                (nats-write-connect stream connection))
               (t nil))))))))
+
+; TODO: Add conditions
+
+; TODO: Subscriber handlers
