@@ -22,6 +22,20 @@
                 ("lang" . "LISP")
                 ("version" . ,nats.vars::*version*))))))
 
+(defun handle-msg (connection input)
+  (multiple-value-bind (whole matches)
+      (cl-ppcre:scan-to-strings 
+        "^MSG\\s+([^\\s\\r\\n]+)\\s+([^\\s\\r\\n]+)\\s+(([^\\s\\r\\n]+)[^\\S\\r\\n]+)?(\\d+)$" 
+        input)
+    (declare (ignore whole))
+    (let* ((sid (parse-integer (aref matches 1)))
+           (handler (get-subscription-handler connection sid))
+           (byte-size (parse-integer (aref matches 4)))
+           (payload (nats-read (stream-of connection))))
+      ;; Read message payload - TODO: Handle \r\n in payload, read exact bye-size
+      (funcall handler payload)
+      )))
+
 (defun make-reader-thread (connection)
   (let ((stream (stream-of connection)))
     (bt:make-thread 
@@ -34,6 +48,8 @@
                (nats-write stream "PONG"))
               ((equal input "+OK") 
                nil) ; TODO: Callback queue of handlers
+              ((equal (subseq input 0 3) "MSG")
+               (handle-msg connection input))
               ((equal (subseq input 0 4) "INFO")
                (nats-write-connect stream connection))
               (t nil))))))))

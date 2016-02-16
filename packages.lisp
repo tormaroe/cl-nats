@@ -8,7 +8,10 @@
            #:port-of
            #:socket-of
            #:stream-of
-           #:thread-of))
+           #:thread-of
+           #:inc-sid
+           #:set-subscription-handler
+           #:get-subscription-handler))
 
 (defpackage #:nats.vars
   (:use #:cl)

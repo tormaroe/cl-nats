@@ -5,7 +5,7 @@
   :description "NATS client library"
   :author "Torbjørn Marø <torbjorn.maro@gmail.com>"
   :license "MIT"
-  :depends-on (#:usocket #:flexi-streams #:bordeaux-threads #:cl-json)
+  :depends-on (#:usocket #:flexi-streams #:bordeaux-threads #:cl-json #:cl-ppcre)
   :components ((:file "packages")
                (:file "nats.connection" :depends-on ("packages"))
                (:file "nats.vars" :depends-on ("packages"))

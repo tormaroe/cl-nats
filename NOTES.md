@@ -24,6 +24,11 @@ Build a Common Lisp client library for [NATS](http://nats.io).
 
 ## QA:
 
+* Examples:
+	* Simple pub/sub - one producer, one consumer
+	* Multiple producers and consumers with advanced subjects
+	* Queue group
+	* Request/response
 * Integration test project, complex scenario tests, use Corona (cl vagrant)
 * Get feedback from community
 * Write README

@@ -25,10 +25,17 @@
                              :name (or name *client-name*))))
     (connect conn)))
 
-(defun subscribe (connection subject handler &key queue-group)
+(defun subscribe (connection subject handler &key (queue-group ""))
   ""
-  nil)
-
+  (let ((sid (inc-sid connection)))
+    (set-subscription-handler connection sid handler)
+    (nats-write (stream-of connection)
+      (format nil "SUB ~A ~A ~A"
+              subject
+              queue-group
+              sid))
+    sid))
+  
 (defun unsubscribe (connection sid &key max-wanted)
   ""
   nil)
