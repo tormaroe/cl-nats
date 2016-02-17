@@ -8,6 +8,14 @@
          :accessor host-of)
    (port :initarg :port 
          :accessor port-of)
+   (user :initarg :user
+         :initform nil
+         :accessor user-of)
+   (password :initarg :password
+             :initform nil
+             :accessor password-of)
+   (state :initform :disconnected
+          :accessor state-of)
    (socket :initarg :socket 
            :accessor socket-of)
    (stream :initarg :stream 
@@ -28,3 +36,19 @@
 
 (defun get-subscription-handler (connection sid)
   (gethash sid (subscription-handlers-of connection)))
+
+(defun connectedp (connection)
+  (eq (state-of connection) :connected))
+
+(defun not-connected-p (connection)
+  (not (eq (state-of connection) :connected)))
+
+(defun wait-for-connection (connections &key (sleeptime 0.01))
+  (let ((connections (if (typep connections 'list)
+                       connections
+                       (list connections))))
+    (loop while (some #'not-connected-p connections)
+          do (sleep sleeptime))))
+
+;; TODO: Add state-related funcs
+;; defun wait-for-connection (x | xs).., with timeout ?

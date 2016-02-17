@@ -27,7 +27,8 @@
   
   (defvar producer (nats:make-connection :name "producer"))
   
-  (sleep 1))
+  (nats.connection:wait-for-connection
+    (cons producer (mapcar #'consumer-connection consumers))))
 
 (defvar subjects 
   '(">" "test.>"
@@ -58,8 +59,7 @@
 
 (defvar expecteds '(5000 4000 2000 2000 1000 1000 1000 1000 2000))
 
-(with-logging "Waiting a couple of seconds"
-  (sleep 2))
+(with-logging "Waiting 1 second" (sleep 1))
 
 (defun assert-message-count (index)
   (let* ((c (nth index consumers))

@@ -1,7 +1,6 @@
 
 (in-package #:nats.io)
 
-
 (defun nats-read (stream)
   (let ((x (read-line stream)))
     (when nats.vars::*debug*
@@ -15,12 +14,24 @@
   (force-output stream))
 
 (defun nats-write-connect (stream connection)
-  (nats-write stream 
-    (format nil "CONNECT ~A"
-            (json:encode-json-to-string 
-              `(("name" . ,(name-of connection))
-                ("lang" . "LISP")
-                ("version" . ,nats.vars::*version*))))))
+  (let ((options `(("name" . ,(name-of connection))
+                   ("lang" . "LISP")
+                   ("version" . ,nats.vars::*version*))))
+    (when-let (user (user-of connection))
+      (if-let (pass (password-of connection))
+        (setf options (pairlis '("user" "pass") `(,user ,pass) options))
+        (setf options (acons "auth_token" user options))))
+    (nats-write stream 
+      (format nil "CONNECT ~A"
+              (json:encode-json-to-string options)))))
+
+(defun handle-info (stream connection)
+  (setf (state-of connection) :connecting)
+  (nats-write-connect stream connection))
+
+(defun handle-ok (connection)
+  (when (eq (state-of connection) :connecting)
+    (setf (state-of connection) :connected)))
 
 (defun handle-msg (connection input)
   (multiple-value-bind (whole matches)
@@ -33,8 +44,7 @@
            (byte-size (parse-integer (aref matches 4)))
            (payload (nats-read (stream-of connection))))
       ;; Read message payload - TODO: Handle \r\n in payload, read exact bye-size
-      (funcall handler payload)
-      )))
+      (funcall handler payload))))
 
 (defun make-reader-thread (connection)
   (let ((stream (stream-of connection)))
@@ -46,12 +56,11 @@
             (cond
               ((equal input "PING") 
                (nats-write stream "PONG"))
-              ((equal input "+OK") 
-               nil) ; TODO: Callback queue of handlers
+              ((equal input "+OK") (handle-ok connection)) ; TODO: Callback queue of handlers
               ((equal (subseq input 0 3) "MSG")
                (handle-msg connection input))
               ((equal (subseq input 0 4) "INFO")
-               (nats-write-connect stream connection))
+               (handle-info stream connection))
               (t nil))))))))
 
 ; TODO: Add conditions

@@ -6,12 +6,18 @@
            #:name-of
            #:host-of
            #:port-of
+           #:user-of
+           #:password-of
+           #:state-of
            #:socket-of
            #:stream-of
            #:thread-of
            #:inc-sid
            #:set-subscription-handler
-           #:get-subscription-handler))
+           #:get-subscription-handler
+           #:connectedp
+           #:not-connected-p
+           #:wait-for-connection))
 
 (defpackage #:nats.vars
   (:use #:cl)
@@ -21,7 +27,7 @@
            #:*encoding*))
 
 (defpackage #:nats.io
-  (:use #:cl #:nats.connection #:nats.vars)
+  (:use #:cl #:rutils.anaphora #:nats.connection #:nats.vars)
   (:export #:nats-read
            #:nats-write
            #:make-reader-thread))
@@ -36,3 +42,5 @@
            #:request
            #:disconnect
            #:with-connection))
+
+;; TODO: Re-export symbols from nats.vars in nats (and test!)
