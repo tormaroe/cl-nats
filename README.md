@@ -5,7 +5,7 @@
 
 A Common Lisp client for the [NATS messaging system](https://nats.io/).
 
-[![License MIT](https://img.shields.io/npm/l/express.svg)](http://opensource.org/licenses/MIT)
+[![License MIT](https://img.shields.io/npm/l/express.svg)](http://opensource.org/licenses/MIT) ![Alpha](https://img.shields.io/badge/project%20state-alpha-red.svg)
 
 **THE LIBRARY IS UNDER DEVELOPMENT, NOT READY TO BE USED, SOME PARTS NOT YET WORKING**
 
