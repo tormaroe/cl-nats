@@ -30,6 +30,7 @@
 ;; Introduce connected slot 
 ;; when not connected, queue up outbound messages
 ;; how to ensure that client knows this is happening? Multiple return values?
+;; Or spin-wait (optionally maybe) for connected status before returning from make?
 
 (sleep 1)
 
