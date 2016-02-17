@@ -37,10 +37,10 @@
     "test.*.a"))
 
 (defun subscribe (index)
-  (let ((c (nth index consumers)))
-    (nats:subscribe 
-      (consumer-connection c)
-      (nth index subjects)
+  (let* ((c (nth index consumers))
+         (connection (consumer-connection c))
+         (subject (nth index subjects)))
+    (nats:subscribe connection subject
       (lambda (msg)
         (declare (ignore msg))
         (incf (consumer-count c))))))
