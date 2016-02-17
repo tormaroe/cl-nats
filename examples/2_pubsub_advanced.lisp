@@ -27,7 +27,7 @@
   
   (defvar producer (nats:make-connection :name "producer"))
   
-  (nats.connection:wait-for-connection
+  (nats:wait-for-connection
     (cons producer (mapcar #'consumer-connection consumers))))
 
 (defvar subjects 
@@ -63,7 +63,7 @@
 
 (defun assert-message-count (index)
   (let* ((c (nth index consumers))
-         (name (nats.connection:name-of (consumer-connection c)))
+         (name (nats:name-of (consumer-connection c)))
          (expected (nth index expecteds))
          (actual (consumer-count c)))
     (if (= actual expected)

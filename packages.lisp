@@ -24,7 +24,8 @@
   (:export #:*host*
            #:*port*
            #:*client-name*
-           #:*encoding*))
+           #:*encoding*
+           #:*debug*))
 
 (defpackage #:nats.io
   (:use #:cl #:rutils.anaphora #:nats.connection #:nats.vars)

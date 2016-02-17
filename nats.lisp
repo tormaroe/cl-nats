@@ -2,6 +2,10 @@
 
 (in-package #:nats)
                            
+(rutils.core:eval-always
+  (rutils.core:re-export-symbols '#:nats.connection '#:nats)
+  (rutils.core:re-export-symbols '#:nats.vars '#:nats))
+
 (defun connect (connection)
   ""
   ; TODO: disconnect first if needed

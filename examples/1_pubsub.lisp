@@ -8,7 +8,7 @@
 ")
 
 (format t "Setting *debug* := true to trace all socket traffic~%")
-(setf nats.vars::*debug* t)
+(setf nats:*debug* t)
 
 (format t "
 |                                                   |
@@ -25,14 +25,7 @@
   (nats:disconnect consumer)
   (format t "Producer and consumer disconnected.~%"))
 
-;; ISSUE TO RESOLVE: Need to wait for CONNECT to be sent
-;; before subscribing...
-;; Introduce connected slot 
-;; when not connected, queue up outbound messages
-;; how to ensure that client knows this is happening? Multiple return values?
-;; Or spin-wait (optionally maybe) for connected status before returning from make?
-
-(sleep 1)
+(nats:wait-for-connection (list producer consumer))
 
 (defvar subject "test")
 (format t "
