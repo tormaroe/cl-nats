@@ -8,18 +8,26 @@
 
 (format t "CL-NATS Example 2: Pub/sub advanced~%")
 
+(defmacro with-logging (text &body body)
+  `(progn 
+    (format t "~&>> ~A ... " ,text)
+    (finish-output)
+    ,@body
+    (format t "DONE~%")))
+
 (defstruct consumer 
   connection (count 0))
 
-(defvar consumers
-  (loop for i from 0 to 8
-        collect (make-consumer 
-                  :connection 
-                  (nats:make-connection :name (format nil "con~A" i)))))
-
-(defvar producer (nats:make-connection :name "producer"))
-
-(sleep 1)
+(with-logging "Creating consumers and producer"
+  (defvar consumers
+    (loop for i from 0 to 8
+          collect (make-consumer 
+                    :connection 
+                    (nats:make-connection :name (format nil "con~A" i)))))
+  
+  (defvar producer (nats:make-connection :name "producer"))
+  
+  (sleep 1))
 
 (defvar subjects 
   '(">" "test.>"
@@ -37,24 +45,21 @@
         (declare (ignore msg))
         (incf (consumer-count c))))))
 
-(loop for i from 0 to 8 do (subscribe i))
+(with-logging "Subscribing consumers"
+  (loop for i from 0 to 8 do (subscribe i)))
 
-(format t "Publishing 5000 messages..")
-(finish-output)
-(dotimes (i 1000)
-  (nats:publish producer "test.foo.a" "yo!")
-  (nats:publish producer "test.foo.b" "yo!")
-  (nats:publish producer "test.bar.a" "yo!")
-  (nats:publish producer "test.bar.b" "yo!")
-  (nats:publish producer "some.random.subject" "yo!"))
-(format t "DONE~%")
+(with-logging "Publishing 5000 messages"
+  (dotimes (i 1000)
+    (nats:publish producer "test.foo.a" "yo!")
+    (nats:publish producer "test.foo.b" "yo!")
+    (nats:publish producer "test.bar.a" "yo!")
+    (nats:publish producer "test.bar.b" "yo!")
+    (nats:publish producer "some.random.subject" "yo!")))
 
 (defvar expecteds '(5000 4000 2000 2000 1000 1000 1000 1000 2000))
 
-(format t "Waiting a couple of seconds..")
-(finish-output)
-(sleep 2)
-(format t "DONE~%")
+(with-logging "Waiting a couple of seconds"
+  (sleep 2))
 
 (defun assert-message-count (index)
   (let* ((c (nth index consumers))
