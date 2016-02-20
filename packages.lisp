@@ -42,6 +42,31 @@
            #:publish
            #:request
            #:disconnect
-           #:with-connection))
+           #:with-connection
 
-;; TODO: Re-export symbols from nats.vars in nats (and test!)
+           ;; Re-exported from nats.connection
+           #:connection
+           #:name-of
+           #:host-of
+           #:port-of
+           #:user-of
+           #:password-of
+           #:state-of
+           #:socket-of
+           #:stream-of
+           #:thread-of
+           #:inc-sid
+           #:set-subscription-handler
+           #:get-subscription-handler
+           #:connectedp
+           #:not-connected-p
+           #:wait-for-connection
+
+           ;; Re-exported from nats.connection
+           #:*host*
+           #:*port*
+           #:*client-name*
+           #:*encoding*
+           #:*debug*
+           ))
+
