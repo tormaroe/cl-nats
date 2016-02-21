@@ -5,20 +5,17 @@
 (nats:wait-for-connection *client*)
 (nats:wait-for-connection *server*)
 
-(setf nats:*debug* t)
-
+;; Server which optionally replies to a reply channel
 (nats:subscribe *server* "echo"
   (lambda (msg &optional reply-to)
     (format t "SERVER: got '~A'~%" msg)
     (when reply-to
-      (nats:publish *server* reply-to 
-                    (format nil "ECHO ~A" msg)))))
-
+      (nats:publish *server* reply-to msg))))
 
 ;; Request a reply
 (nats:request *client* "echo" "I'd like a reply"
-  (lambda (msg &optional reply-to)
-    (format t "CLIENT: got '~A' '~A'~%" msg reply-to)))
+  (lambda (msg)
+    (format t "CLIENT: got '~A'~%" msg)))
 
 ;; Fire and forget..
 (nats:publish *client* "echo" "I don't really care")

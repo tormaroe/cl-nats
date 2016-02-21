@@ -58,7 +58,7 @@
   ""
   ;; create a new inbox subject, reusing sid functionality (for now)
   (let* ((inbox (format nil "INBOX.~A" (inc-sid connection)))
-         (sid (subscribe connection subject handler)))
+         (sid (subscribe connection inbox handler)))
     (publish connection 
              subject 
              message
