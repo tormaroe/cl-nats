@@ -52,5 +52,4 @@
           do (sleep sleeptime))
     orig))
 
-;; TODO: Add state-related funcs
 ;; defun wait-for-connection (x | xs).., with timeout ?

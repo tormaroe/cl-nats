@@ -73,14 +73,11 @@
     (error (e)
       (warn "Ignoring error when trying to close NATS socket: ~A" e))))
 
-(defmacro with-connection ((connection &key host 
-                                            port 
-                                            servers 
-                                            verbose) 
+(defmacro with-connection ((var &rest args) 
                            &body body)
-  ""
-  ; TODO: Accept &rest and pass it on with apply
-  `(let ((,connection (make-connection :host ,host
-                                       :port ,port)))
+  "Makes a new NATS connection with supplied args (see #'make-connection),
+waits for the connection, binds it to var, evaluates body, and finally
+disconnects."
+  `(let ((,var (wait-for-connection (make-connection ,@args))))
     (unwind-protect (progn ,@body)
-      (disconnect ,connection))))
+      (disconnect ,var))))
