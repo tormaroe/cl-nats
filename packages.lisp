@@ -1,5 +1,9 @@
 ;;;; package.lisp
 
+(defpackage #:json-false
+  (:use #:cl)
+  (:export #:json-bool))
+
 (defpackage #:nats.connection
   (:use #:cl)
   (:export #:connection
@@ -28,11 +32,13 @@
   (:export #:*host*
            #:*port*
            #:*client-name*
+           #:*version*
            #:*encoding*
-           #:*debug*))
+           #:*debug*
+           #:*verbose*))
 
 (defpackage #:nats.io
-  (:use #:cl #:rutils.anaphora #:nats.connection #:nats.vars)
+  (:use #:cl #:rutils.anaphora #:json-false #:nats.connection #:nats.vars)
   (:export #:nats-read
            #:nats-write
            #:make-reader-thread))

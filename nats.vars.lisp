@@ -19,3 +19,8 @@
 
 (defvar *encoding* :utf8
   "Character encoding to be used")
+
+(defvar *verbose* t
+  "When the verbose connection option is set to true (default from server),
+ the server acknowledges each well-formed protocol message from the client 
+ with a +OK message.")
