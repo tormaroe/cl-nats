@@ -63,6 +63,8 @@
                (handle-info stream connection))
               (t nil))))))))
 
+; TODO: Validate subject (type)
+
 ; TODO: Add conditions
 
 ; TODO: Subscriber handlers

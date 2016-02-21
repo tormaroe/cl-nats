@@ -53,9 +53,12 @@
             (flexi-streams:octet-length message :external-format *encoding*) 
             message)))
 
-(defun request (connection subject handler)
+(defun request (connection subject message handler)
   ""
-  nil)
+  ;; create a new inbox subject, reusing sid functionality (for now)
+  (let* ((inbox (format nil "INBOX.~A" (inc-sid connection)))
+         (sid (subscribe connection subject handler )))
+    (publish connection subject message)))
 
 (defun disconnect (connection)
   ""
