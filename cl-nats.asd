@@ -1,7 +1,7 @@
 ;;;; cl-nats.asd
 
 (asdf:defsystem #:cl-nats
-  :version "0.1.0"
+  :version "0.1.1"
   :description "NATS client library"
   :author "Torbjørn Marø <torbjorn.maro@gmail.com>"
   :license "MIT"

@@ -11,7 +11,7 @@
 (defvar *client-name* ""
   "Optional NATS client name")
 
-(defvar *version* "0.1.0"
+(defvar *version* "0.1.1"
   "The current version of cl-nats")
 
 (defvar *debug* nil
