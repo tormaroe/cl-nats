@@ -54,7 +54,6 @@
     (bt:make-thread 
       (lambda () 
         (loop 
-          ; Try parse with regex
           (let ((input (nats-read stream))) ; TODO: Protect against END-OF-FILE condition
             (cond
               ((equal input "PING") 
@@ -65,8 +64,6 @@
               ((equal (subseq input 0 4) "INFO")
                (handle-info stream connection))
               (t nil))))))))
-
-; TODO: Validate subject (type)
 
 ; TODO: Add conditions
 

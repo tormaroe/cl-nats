@@ -19,6 +19,10 @@
            #:not-connected-p
            #:wait-for-connection))
 
+(defpackage #:nats.subject
+  (:use #:cl)
+  (:export #:subject))
+
 (defpackage #:nats.vars
   (:use #:cl)
   (:export #:*host*
@@ -34,7 +38,7 @@
            #:make-reader-thread))
 
 (defpackage #:nats
-  (:use #:cl #:nats.connection #:nats.vars #:nats.io)
+  (:use #:cl #:nats.connection #:nats.subject #:nats.vars #:nats.io)
   (:export #:make-connection
            #:connect
            #:subscribe

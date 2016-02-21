@@ -31,6 +31,7 @@
 
 (defun subscribe (connection subject handler &key queue-group)
   ""
+  (declare (subject subject))
   (let ((sid (inc-sid connection)))
     (set-subscription-handler connection sid handler)
     (nats-write (stream-of connection)
@@ -47,6 +48,7 @@
 
 (defun publish (connection subject message &key reply-to)
   ""
+  (declare (subject subject))
   (nats-write (stream-of connection)
     (format nil "PUB ~A~@[ ~A~] ~A~%~A" 
             subject 
@@ -56,6 +58,7 @@
 
 (defun request (connection subject message handler)
   ""
+  (declare (subject subject))
   ;; create a new inbox subject, reusing sid functionality (for now)
   (let* ((inbox (format nil "INBOX.~A" (inc-sid connection)))
          (sid (subscribe connection inbox handler)))
