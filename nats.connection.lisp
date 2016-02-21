@@ -44,11 +44,13 @@
   (not (eq (state-of connection) :connected)))
 
 (defun wait-for-connection (connections &key (sleeptime 0.01))
-  (let ((connections (if (typep connections 'list)
+  (let ((orig connections)
+        (connections (if (typep connections 'list)
                        connections
                        (list connections))))
     (loop while (some #'not-connected-p connections)
-          do (sleep sleeptime))))
+          do (sleep sleeptime))
+    orig))
 
 ;; TODO: Add state-related funcs
 ;; defun wait-for-connection (x | xs).., with timeout ?
