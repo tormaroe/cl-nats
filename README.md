@@ -3,7 +3,7 @@
 
 # NATS - Common Lisp Client
 
-A Common Lisp client for the [NATS messaging system](https://nats.io/).
+A Common Lisp client for the [NATS messaging system](https://nats.io/), providing low latency publish/subscribe over TCP sockets.
 
 [![License MIT](https://img.shields.io/npm/l/express.svg)](http://opensource.org/licenses/MIT) ![Alpha](https://img.shields.io/badge/project%20state-alpha-red.svg)
 
@@ -39,6 +39,17 @@ cl-nats is not available through quicklisp yet, so clone this repository to some
 You will find more usage examples in the examples source directory. Refer to the [NATS documentation](http://nats.io/documentation/) for a deeper understanding.
 
 View the `nats` package exported symbols for the public API of cl-nats. Note that the exported symbols of `nats.connection` and `nats.vars` are re-exported in `nats`.
+
+## Dependencies
+
+Not that you should need to care about this, but under the hood cl-nats uses:
+
+* [usocket](https://common-lisp.net/project/usocket/) - Universal socket library
+* [flexi-streams](http://weitz.de/flexi-streams/) - Flexible bivalent streams
+* [bordeaux-threads](https://common-lisp.net/project/bordeaux-threads/) - Portable shared-state concurrency
+* [cl-json](https://common-lisp.net/project/cl-json/) - A JSON parser and generator
+* [cl-ppcre](http://weitz.de/cl-ppcre/) - Portable Perl-compatible regular expressions
+* [rutils](https://github.com/vseloved/rutils) - Radical Utilities
 
 ## License
 
