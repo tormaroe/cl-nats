@@ -45,11 +45,12 @@
   (nats-write (stream-of connection)
     (format nil "UNSUB ~A~@[ ~A~]" sid max-wanted)))
 
-(defun publish (connection subject message)
+(defun publish (connection subject message &key reply-to)
   ""
   (nats-write (stream-of connection)
-    (format nil "PUB ~A ~A~%~A" 
+    (format nil "PUB ~A~@[ ~A~] ~A~%~A" 
             subject 
+            reply-to
             (flexi-streams:octet-length message :external-format *encoding*) 
             message)))
 
@@ -57,8 +58,11 @@
   ""
   ;; create a new inbox subject, reusing sid functionality (for now)
   (let* ((inbox (format nil "INBOX.~A" (inc-sid connection)))
-         (sid (subscribe connection subject handler )))
-    (publish connection subject message)))
+         (sid (subscribe connection subject handler)))
+    (publish connection 
+             subject 
+             message
+             :reply-to inbox)))
 
 (defun disconnect (connection)
   ""

@@ -11,7 +11,8 @@
   (lambda (msg &optional reply-to)
     (format t "SERVER: got '~A'~%" msg)
     (when reply-to
-      (nats:publish *server* reply-to msg))))
+      (nats:publish *server* reply-to 
+                    (format nil "ECHO ~A" msg)))))
 
 
 ;; Request a reply

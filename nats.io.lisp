@@ -41,10 +41,13 @@
     (declare (ignore whole))
     (let* ((sid (parse-integer (aref matches 1)))
            (handler (get-subscription-handler connection sid))
+           (reply-to (aref matches 3))
            (byte-size (parse-integer (aref matches 4)))
            (payload (nats-read (stream-of connection))))
       ;; Read message payload - TODO: Handle \r\n in payload, read exact bye-size
-      (funcall handler payload))))
+      (if reply-to
+        (funcall handler payload reply-to)
+        (funcall handler payload)))))
 
 (defun make-reader-thread (connection)
   (let ((stream (stream-of connection)))
