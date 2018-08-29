@@ -50,6 +50,11 @@
         (funcall handler payload reply-to)
         (funcall handler payload)))))
 
+(defun handle-ping (stream)
+  (nats-write stream "PONG")
+  (when-it nats.vars::*after-pong-hool*
+    (funcall it)))
+
 (defun make-reader-thread (connection)
   (let ((stream (stream-of connection)))
     (bt:make-thread 

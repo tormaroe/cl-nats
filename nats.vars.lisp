@@ -24,3 +24,6 @@
   "When the verbose connection option is set to true (default from server),
  the server acknowledges each well-formed protocol message from the client 
  with a +OK message.")
+
+(defvar *after-pong-hook* nil
+  "EXPERIMENTAL")
